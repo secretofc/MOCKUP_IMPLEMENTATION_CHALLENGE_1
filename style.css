@@ -1,0 +1,132 @@
+.logo {
+    width: 90px;
+    height: 40px;
+}
+
+.header {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); 
+}
+.donate {
+    border-radius: 20px;
+    background-color: #3DB5E2;
+}
+
+.jumbotron {
+    background-image: url("Vector 1.png");
+    height: 875px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: -90px;*/
+}
+
+.corona {
+    padding-top: 10%;
+    padding-left: 80px;
+    font-size: 3.5em;
+    margin-bottom: -1px;
+}
+
+.home {
+    padding-top: 10px;
+    padding-left: 80px;
+    font-size: 3.5em;
+}
+
+.lorem {
+    font-size: 18px;
+    margin-bottom: 2px;
+    padding-left: 80px;
+}
+
+.vector {
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+.learn {
+    border-radius: 50px;
+    margin-left: 80px;
+    height: 50px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+.contact {
+    border-radius: 80px;
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+.card {
+    height: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px !important;
+    transition: .5s;
+}
+
+.card:hover {
+    box-shadow: 0px 60px 10px -40px rgba(0, 0, 0, .15);
+    margin-top: -40px;
+}
+
+.judul {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #eee;
+    margin-top: 200px;
+}
+
+@media all and (max-width: 670px) {
+    .vector {
+        display: none;
+    }
+    .title {
+        font-size: 13px;    
+    }
+    .whatt {
+        font-size: 35px;
+    }
+    .corona,
+    .home {
+        font-size: 35px;
+        padding-left: 2px;
+        /* margin-top: 50px; */
+    }
+    .lorem {
+        font-size: 13px;
+        padding-left: 2px;
+    }
+    .learn {
+        width: 150px;
+        font-size: 3em;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+    .contact {
+        width: 150px;
+        font-size: 3em;
+        margin-top: 10px;
+    }
+    .corona {
+        margin-top: 80px;
+    }
+    .navbar-nav {
+        margin-left: 10px;
+    }
+    .nav-item,
+    .donate {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 900px !important;
+        background-position: -550px -150px;
+    }
+}
